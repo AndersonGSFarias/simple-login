@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+@media only screen and (max-width: 481px) {
+/* Estilos para mobile no modo retrato */
+/* Formulario */
+
+/* Titulo */
+#form-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    padding: 0px 0px 0px 0px;
+    font-size: 22pt;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+/* Lista de Inputs */
+.form-list{
+    flex-direction: column;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: none;
+}
+
+.list-form{
+    padding: 4px 0px 4px 0px;
+}
+
+.label-form{
+    padding-left: 10px;
+}
+
+.input-form{
+    width: 90%;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-width: 1px 1.8px 1.8px 1px;
+    border-color: #00000036;
+    border-style: solid;
+    outline: 0;
+}
+
+.input-form:focus{
+    color: rgb(16, 32, 120);
+}
+
+.input-form::placeholder {
+    color: rgb(16, 32, 120);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Lista de Botões */
+
+.btn-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+.next-btn{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color: rgb(16, 32, 120);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.back-btn{
+    transform: rotate(180deg);
+    width: 42px;
+}
+
+/* Outros metódos de login */
+
+form h2{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 16pt;
+}
+
+form #logins{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+
+form ul img{
+    flex-direction: row-reverse;
+    width: 30px;
+
+}
+
+
+}
+@media only screen and (max-width: 769px) {
+    /* Estilos para mobile no modo paisagem e laptops pequenos */
+
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Estilos para desktops */
+    
+}

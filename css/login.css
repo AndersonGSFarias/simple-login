@@ -49,10 +49,39 @@
     color: rgb(16, 32, 120);
 }
 
+.input-form[type="text"] {
+    color: rgb(16, 32, 120); 
+}
+
 .input-form::placeholder {
     color: rgb(16, 32, 120);
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Mostrar a senha */
+
+.input-container {
+    position: relative;
+}
+
+#show-password {
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    top: 50%;
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#eye-icon{
+    font-size: 20px;
+    color: rgb(16, 32, 120);
+}
+
 
 /* Esqueci a senha */
 
